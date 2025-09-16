@@ -1,9 +1,12 @@
 <?php
 
-$str="LaPlateforme";
-$str2="Vive";
-$str3="!";
+// en une ligne
+echo "Hello Ely"; 
 
-echo $str2 . " " . $str . " " . $str3;
 
-?>
+// en un bloc
+echo "Hello";
+echo "Ely";
+
+
+?> 
