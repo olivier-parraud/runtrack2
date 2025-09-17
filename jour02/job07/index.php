@@ -12,5 +12,6 @@ for ($i = 1; $i <= $hauteur; $i++) {
         echo "*";
     }
     echo "<br />";
+
 }
 ?>
