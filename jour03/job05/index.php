@@ -60,8 +60,8 @@ while (isset($str[$i])) {
 <body>
     
     <h1 style=text-align:center><em><?php echo $str; ?></em></h1>
-    0
-0110    <table>
+    
+    <table>
         <tr>
             <th>Type</th>
             <th>Nombre</th>

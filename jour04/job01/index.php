@@ -6,6 +6,7 @@
 <body>
 
 <form method="get" action="">
+    
     <label>Nom : <input type="text" name="nom"></label><br>
     <label>Âge : <input type="text" name="age"></label><br>
     <label>Ville : <input type="text" name="ville"></label><br>
@@ -19,7 +20,7 @@ if (isset($_GET)) {
     // Parcours manuel de $_GET pour compter les arguments
     foreach ($_GET as $cle => $valeur) {
         // On vérifie si la clé est bien définie (sécurité inutile ici mais demandée par l'énoncé)
-        if (isset($_GET[$cle]) && $_GET[$cle] !== "") {
+        if (isset($_GET[$cle]) && $_GET[$cle] !== "")  {
             $compteur = $compteur + 1; // ou $compteur++;
         }
     }
