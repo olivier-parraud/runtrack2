@@ -24,8 +24,8 @@
 
 <table>
     <tr>
-        <th>Argument</th>
-        <th>Valeur</th>
+        <th>Nom</th>
+        <th>Prénom</th>
     </tr> 
     <tr>   
       <?php
@@ -35,8 +35,6 @@
       if (isset($_GET[$val]) && $_GET[$val] !== "")  {
         echo "";
       }
-      
-      
       ?>
     </tr>
 
