@@ -32,7 +32,7 @@
       foreach ($_GET as $val) {
         echo "<td> $val </td>"; 
       }
-      if (isset($_GET[$val]) && $_GET[$val] !== "")  {
+      if (isset($_GET[$val]) !== "")  {
         echo "";
       }
       ?>
