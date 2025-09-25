@@ -5,4 +5,8 @@ for ($i = 0; $i <= 1337; $i++) {
         echo $i . '<br>';
     }                                
 }
+
+$i != 26; // $i n'est pas égal à 26
+$i = 26; // On défini notre $i à 26
+
 ?>

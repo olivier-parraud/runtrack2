@@ -20,7 +20,7 @@ while (isset($str[$i])) {
     return $count;
 }
 
-$texte = "Bienvenue en enfer, suivez votre guide Ely";
+$texte = "Bienvenue en enfer, suiviez votre guide Ely";
 $caractères = "e";
 $resultat = occurence($texte,$caractères);
 
